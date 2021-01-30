@@ -42,10 +42,4 @@ function prev2(){
     pic--; pic = verify2(pic);
     post2.innerHTML = '<img class = "myi2"  src = "./pics/' + (pic + 1) + '.jpg" max-width="550" height="350" align = "center">';
 }
-let form = document.getElementsByTagName("form")[0];
-function sub(){
-form.addEventListener("Submit", (e) => {
-  e.preventDefault();
-  alert("Form Submitted!");
-});
-}
+
